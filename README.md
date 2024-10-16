@@ -92,15 +92,12 @@ Backend будет доступен по адресу http://localhost:4000.
 ## Docker
 
 Для запуска приложения с использованием Docker, выполните следующие команды:
-
 1. Соберите Docker образы:
-
-   ```bash
-   docker-compose build
-  ```
-
+    ```bash
+    docker-compose build
+    ```
+  
 2. Запустите контейнеры:
-
   ```bash
   docker-compose up -d
   ```
